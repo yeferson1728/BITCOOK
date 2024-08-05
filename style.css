@@ -54,15 +54,13 @@ header {
   grid-row-gap: 30px;
 }
 #imagenPrincipal {
-  background-image: url(./img/imagen-principal2.jpg);
-  text-align: center;
+  background-image: url(./img/background-2.jpg);
   background-repeat: no-repeat;
   height: 500px;
   width: 77%;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-left: 11.4%;
   margin-top: 30px;
-  cursor: pointer;
   box-shadow: #1f1e1e 1px 3px 8px;
   position: relative;
 }
@@ -208,6 +206,8 @@ h2 {
   margin-bottom: 30px;
   margin-top: 30px;
   margin-left: 5%;
+  cursor: pointer;
+  
 }
 li {
   color: #7e4333;

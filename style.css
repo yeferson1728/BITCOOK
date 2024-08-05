@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-color: #f3e5d8;
+  width: auto;
+}
+header {
+  width: auto;
+  height: 45px;
+  background-color: #255538;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#botonEnvia {
+  color: #ffffff;
+  background-color: #255538;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  right: 80px;
+}
+
+#logo {
+  height: 20px;
+  position: relative;
+  top: 11px;
+  left: 30px;
+  cursor: pointer;
+}
+.grip-contenedor {
+  margin-top: 30px;
+  margin-left: 220px;
+  margin-right: 220px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+  background-color: aqua;
+}
+#imagenPrincipal {
+  width: 1465px;
+  border-radius: 10px;
+  margin-left: 218px;
+  margin-top: 30px;
+  cursor: pointer;
+  
+}
+#tacos {
+  width: 250px;
+  display: grid;
+  grid-area: 1 / 2 / 2 / 2 ;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+#pasta {
+  width: 250px;
+  display: grid;
+  grid-area: 1 / 2 / 2 / 2 ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#salmon {
+  width: 250px;
+  display: grid;
+  grid-area: 1 / 2 / 2 / 2 ;
+  border-radius: 10px;
+  display: flex; 
+  cursor: pointer;
+ }
+ .clase-tacos {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+ }

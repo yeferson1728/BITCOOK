@@ -221,11 +221,11 @@ h2 {
 }
 .caja-2 {
   position: absolute;
-  top: 920px;
+  top: 1000px;
   right: 100px;
   background-color: #ffffff;
   border-radius: 10px;
-  width: 580px;
+  width: 540px;
   height: 630px;
   box-shadow: #1f1e1e 1px 3px 8px;
 }

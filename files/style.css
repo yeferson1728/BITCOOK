@@ -28,6 +28,7 @@ header {
   cursor: pointer;
   position: relative;
   right: 80px;
+  top: 12px;
 }
 
 #logo {
@@ -40,14 +41,16 @@ header {
 .grip-contenedor {
   background-color: #f3e5d8;
   margin-top: 30px;
-  margin-left: 12%;
-  padding-right: 12%;
+ margin-left: 11%; 
+ margin-right: 11%;
+ /*  padding-right: 12%; */
+ margin-bottom: 30px;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   overflow: hidden;
-  grid-column-gap: 30px;
+  grid-column-gap: 2%;
   grid-row-gap: 30px;
 }
 #imagenPrincipal {
@@ -68,8 +71,7 @@ header {
 }
 #tacos {
   margin-top: 20px;
-  width: 101%;
-  height: 46%;
+  width: 100%;
   display: grid;
   grid-area: 1 / 2 / 2 / 2;
   border-radius: 10px;
@@ -77,9 +79,9 @@ header {
   box-shadow: #1f1e1e 1px 3px 8px;
 }
 #pasta {
+  
   margin-top: 20px;
-  width: 101%;
-  height: 46%;
+  width: 100%;
   display: grid;
   grid-area: 1 / 2 / 2 / 2;
   border-radius: 10px;
@@ -88,8 +90,7 @@ header {
 }
 #salmon {
   margin-top: 20px;
-  width: 101%;
-  height: 46%;
+  width: 100%;
   display: grid;
   grid-area: 1 / 2 / 2 / 2;
   border-radius: 10px;

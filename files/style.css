@@ -42,10 +42,10 @@ header {
 .grip-contenedor {
   background-color: #f3e5d8;
   margin-top: 30px;
- margin-left: 11%; 
- margin-right: 11%;
- /*  padding-right: 12%; */
- margin-bottom: 30px;
+  margin-left: 11%;
+  margin-right: 11%;
+  /*  padding-right: 12%; */
+  margin-bottom: 30px;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -80,7 +80,6 @@ header {
   box-shadow: #1f1e1e 1px 3px 8px;
 }
 #pasta {
-  
   margin-top: 20px;
   width: 100%;
   display: grid;

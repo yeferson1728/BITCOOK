@@ -17,7 +17,9 @@ header {
   border-radius: 8px;
   margin-left: 25px;
   margin-right: 25px;
-  
+  position: static;
+  position: sticky;
+  top: 0;
 }
 
 #botonEnvia {
@@ -37,21 +39,24 @@ header {
   top: 11px;
   left: 30px;
 }
-.clase1 {
-  display: block;
+section {
+  display: flex;
+  gap: 2%;
+}
+
+.caja1 {
+  width: 50%;
   border-radius: 10px;
-  margin-left: 100px;
-  margin-top: 40px;
-  width: 1100px;
+  margin-left: 10%;
+  margin-top: 3%;
   background-color: rgb(255, 255, 255);
   margin-bottom: 60px;
   box-shadow: #1f1e1e 1px 3px 8px;
 }
-#img-receta {
+#imgReceta {
+  width: 94.3%;
   border-radius: 10px;
-  width: 88%;
-  margin-left: 70px;
-  margin-top: 40px;
+  margin: 3%;
   top: 25px;
   left: 70px;
   box-shadow: #1f1e1e 1px 2px 5px;
@@ -60,13 +65,13 @@ h1 {
   font-size: 35px;
   color: #7e4333;
   margin-top: 45px;
-  margin-left: 70px;
+  margin-left: 7%;
 }
 #parrafo {
   font-size: 30px;
   color: #030303;
   margin-top: 45px;
-  margin-left: 70px;
+  margin-left: 8%;
   padding-right: 50px;
   padding-right: 70px;
 }
@@ -74,7 +79,7 @@ h2 {
   font-size: 35px;
   color: #7e4333;
   margin-top: 45px;
-  margin-left: 70px;
+  margin-left: 7%;
 }
 #preparacion {
   padding-top: 5px;
@@ -88,234 +93,107 @@ h2 {
   box-shadow: #636161 1px 3px 8px;
 }
 #preparacion-2 {
-  margin-bottom: 30px;
-  margin-left: 0;
-  position: relative;
-  left: 50px;
+  margin: 25px;
 }
 #preparacion-3 {
-  margin-bottom: 30px;
-  position: relative;
-  left: 75px;
+  margin: 3%;
 }
-#instrucciones {
-  font-size: 30px;
-  padding-right: 70px;
-  padding-bottom: 40px;
-  padding-left: 40px;
+#pasosPreparacion {
+  margin: 3%;
+  font-size: 25px;
 }
-#instruccion {
-  margin-bottom: 30px;
-}
-#parrafo-2 {
+
+ul {
   font-size: 25px;
   color: #030303;
-  margin-top: 45px;
-  margin-left: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   padding-right: 70px;
+  padding-left: 3%;
 }
-#caja {
-  position: absolute;
-  top: 105px;
-  right: 100px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  width: 540px;
-  height: auto;
-  box-shadow: #1f1e1e 1px 3px 8px;
-  padding-bottom: 30px;
+.caja2 {
+  margin-top: 3%;
+  width: 30%;
+  background-color: #f3e5d8;
 }
-#ingredientes-2 {
-  margin-top: 25px;
-  margin-left: 30px;
+#ingredientesTitulo {
+  margin-top: 0;
   margin-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 7%;
+  font-size: 35px;
+  color: #7e4333;
 }
-#ingredientes-3 {
-  margin-left: 45px;
+
+#ingredientes {
+  margin: 5%;
   font-size: 25px;
   color: #030303;
-}
-#valores {
-  margin-top: 25px;
-  margin-left: 30px;
 }
 #calorias {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 22px;
 }
-#carbo {
+#carbohidratos {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 51px;
 }
 #proteina {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 51px;
 }
 #grasa {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 51px;
 }
 #azucares {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 58px;
 }
 #sodio {
   border-bottom: #7e4333 2px solid;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
-  margin-left: 35px;
-  padding-left: 0px;
-  padding-right: 30px;
 }
-#sodio-2 {
-  position: relative;
-  right: 40px;
-}
-#calorias-2 {
-  position: relative;
-  right: 40px;
-}
-#carbo-2 {
-  position: relative;
-  right: 40px;
-}
-#proteina-2 {
-  position: relative;
-  right: 40px;
-}
-#grasa-2 {
-  position: relative;
-  right: 40px;
-}
-#azucares-2 {
-  position: relative;
-  right: 40px;
-}
-.caja-2 {
-  position: absolute;
-  top: 1000px;
-  right: 100px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  width: 540px;
-  height: 630px;
-  box-shadow: #1f1e1e 1px 3px 8px;
+#valores {
+  padding: 0;
 }
 
-#recomendar {
-  display: flex;
-  padding-right: 50px;
-  display: flex;
-  justify-content: space-evenly;
+#subCaja1 {
+  padding-bottom: 1%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: #1f1e1e 1px 3px 8px;
 }
-#mas-recetas {
-  position: relative;
-  right: 40px;
-  bottom: 20px;
+#subCaja2 {
+  width: 80%;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: #1f1e1e 1px 3px 8px;
 }
-#img-3 {
-  width: 234px;
-  height: 150px;
-  cursor: pointer;
-  position: relative;
-  right: 15px;
+h3 {
+  margin-left: 5%;
+  color: #000000;
+}
+#imgMasRecetas {
+  width: 50%;
+  margin: 5%;
+  margin-top: 0;
   border-radius: 10px;
 }
-#tacos {
-  cursor: pointer;
-  position: relative;
-  right: 55px;
-}
-h4 {
-  cursor: pointer;
-  position: relative;
-  top: 10px;
-  right: 55px;
-  color: #7e4333;
-}
-#pasta {
-  width: 235px;
-  height: 150px;
-  cursor: pointer;
-  position: relative;
-  left: 34px;
-  top: 30px;
-  border-radius: 10px;
-}
-#pasta-2 {
-  display: flex;
-}
-#h3-pasta {
-  cursor: pointer;
-  position: relative;
-  top: 30px;
-  left: 45px;
-  padding-bottom: 0;
-}
-#h4-pasta {
-  cursor: pointer;
-  position: relative;
-  top: 80px;
-  right: 150px;
-  
-  color: #7e4333;
-}
-#salmon {
-  width: 235px;
-  height: 150px;
-  cursor: pointer;
-  position: relative;
-  left: 35px;
-  top: 60px;
-  border-radius: 10px;
-}
-#salmon-2 {
-  display: flex;
-}
-#h3-salmon {
-  cursor: pointer;
-  position: relative;
-  top: 60px;
-  left: 50px;
-}
-#h4-salmon {
-  position: relative;
-  top: 95px;
-  right: 80px;
-}
+
 footer {
   background-color: #255538;
   display: flex;
@@ -325,7 +203,6 @@ footer {
   margin-right: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 #logo-final {
   position: relative;
@@ -337,4 +214,135 @@ footer {
   position: relative;
   bottom: 10px;
   right: 20px;
+}
+@media (max-width: 480px) {
+  section {
+    display: block;
+  }
+  .caja1 {
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  #imgReceta {
+    margin: 0px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10%;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  #parrafo {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  #preparacion {
+    padding: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #pasosPreparacion {
+    font-size: 20px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  .caja2 {
+    margin-top: 3%;
+    width: 100%;
+  }
+  #subCaja2 {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  header {
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  footer {
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1080px) {
+  section {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .caja1 {
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  #imgReceta {
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  #parrafo {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  #preparacion {
+    padding: 1;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #pasosPreparacion {
+    font-size: 20px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  .caja2 {
+    margin-top: 3%;
+    width: 100%;
+  }
+  #subCaja2 {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  header {
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  footer {
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

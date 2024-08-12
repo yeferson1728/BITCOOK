@@ -109,3 +109,43 @@ footer {
   bottom: 10px;
   right: 20px;
 }
+@media (max-width: 480px) {
+  .form-register {
+    width: 95%;
+  margin-left: 2.5;
+  margin-bottom: 0;
+  }
+  header {
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  footer {
+    padding-top: 20px;
+    margin-top: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+ 
+}
+@media (max-width: 1080px) {
+  .form-register {
+    width: 95%;
+  margin-left: 2.5;
+  margin-bottom: 0;
+  }
+  header {
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  footer {
+    padding-top: 20px;
+    margin-top: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+ 
+}

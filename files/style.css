@@ -21,15 +21,16 @@ header {
   top: 0px;
 }
 #botonEnvia {
-  color: #ffffff;
-  background-color: #255538;
+  color: #0fa541;
+  background-color: #ffffff;
   text-align: center;
   border: 0;
+  border-radius: 5px;
   cursor: pointer;
   position: relative;
   right: 80px;
   top: 12px;
-}
+} 
 
 #logo {
   height: 20px;

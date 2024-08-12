@@ -279,12 +279,21 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
   }
+  #final {
+    margin-right: -15px;
+  }
+  #ingredientesTitulo {
+    font-size: 25px;
+  }
+  #h3 {
+    font-size: 10px;
+  }
 }
 @media (max-width: 1080px) {
   section {
     display: block;
-    width: 70%;
-    margin-left: 15%;
+    width: 95%;
+    margin-left: 2.5%;
   }
   .caja1 {
     padding-bottom: 20px;
@@ -296,33 +305,47 @@ footer {
     margin-bottom: 20px;
   }
   #imgReceta {
-    width: 60%;
+    width: 90%;
+    margin-top: 5%;
     border-radius: 10px;
-    margin-left: 20%;
+    margin-left: 5%;
   }
   h1 {
     font-size: 25px;
     margin-top: 0;
   }
   #parrafo {
+    margin-top: 5%;
     font-size: 20px;
+    padding-right: 5%;
   }
   h2 {
     font-size: 23px;
+    margin-top: 5%;
   }
   #preparacion {
-    padding: 1;
+    padding: 0%;
     border-radius: 5px;
     font-size: 18px;
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  #preparacion-2 {
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   #pasosPreparacion {
     font-size: 20px;
   }
   ul {
     font-size: 20px;
+    padding: 3%;
+  }
+  li {
+    font-size: 20px;
+    padding: 1%;
   }
   .caja2 {
     margin-top: 3%;
